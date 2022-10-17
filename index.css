@@ -1,0 +1,191 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("images/Background.PNG");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
+
+.vizitkare_virsraksts {
+  position: fixed;
+  font-size: 50px;
+  color: aliceblue;
+  margin-left: 750px;
+  margin-top: 250px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.vards_uzvards {
+  position: fixed;
+  font-size: 35px;
+  color: aliceblue;
+  margin-left: 840px;
+  margin-top: 350px;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.logs1 {
+  position: fixed;
+  margin-left: 350px;
+  margin-top: 500px;
+  height: 300px;
+  width: 350px;
+  border: 2px solid;
+  background-color: rgba(0, 0, 0, 0.664);
+  border-radius: 15px;
+  border-color: rgb(255, 255, 255);
+}
+
+.gmail_logo {
+  position: fixed;
+  margin-left: 120px;
+  margin-top: 10px;
+  width: 110px;
+  height: 110px;
+}
+
+.uzrakstiet_man {
+  position: fixed;
+  font-size: 30px;
+  color: aliceblue;
+  margin-left: 70px;
+  margin-top: 125px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.apraksts1 {
+  position: fixed;
+  font-size: 20px;
+  color: rgb(154, 160, 165);
+  margin-left: 15px;
+  margin-top: 180px;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  text-shadow: -1px -1px 0 rgb(34, 32, 32), 1px -1px 0 rgb(34, 32, 32), -1px 1px 0 rgb(34, 32, 32), 1px 1px 0 rgb(34, 32, 32);
+}
+
+.gmail {
+  position: fixed;
+  font-size: 20px;
+  color: aliceblue;
+  margin-left: 50px;
+  margin-top: 230px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.logs2 {
+  position: fixed;
+  margin-left: 750px;
+  margin-top: 500px;
+  height: 300px;
+  width: 350px;
+  border: 2px solid;
+  background-color: rgba(0, 0, 0, 0.664);
+  border-radius: 15px;
+  border-color: rgb(255, 255, 255);
+}
+
+.vietas_logo {
+  position: fixed;
+  margin-left: 120px;
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.atrasanas_vieta {
+  position: fixed;
+  font-size: 30px;
+  color: aliceblue;
+  margin-left: 30px;
+  margin-top: 125px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.apraksts2 {
+  position: fixed;
+  font-size: 20px;
+  color: rgb(154, 160, 165);
+  margin-left: 70px;
+  margin-top: 180px;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  text-shadow: -1px -1px 0 rgb(34, 32, 32), 1px -1px 0 rgb(34, 32, 32), -1px 1px 0 rgb(34, 32, 32), 1px 1px 0 rgb(34, 32, 32);
+}
+
+.rvt_majaslapa {
+  position: fixed;
+  font-size: 20px;
+  color: aliceblue;
+  margin-left: 80px;
+  margin-top: 230px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.logs3 {
+  position: fixed;
+  margin-left: 1150px;
+  margin-top: 500px;
+  height: 300px;
+  width: 350px;
+  border: 2px solid;
+  background-color: rgba(0, 0, 0, 0.664);
+  border-radius: 15px;
+  border-color: rgb(255, 255, 255);
+}
+
+.telefona_logo {
+  position: fixed;
+  margin-left: 120px;
+  margin-top: 10px;
+  width: 110px;
+  height: 110px;
+}
+
+.sazinaties {
+  position: fixed;
+  font-size: 30px;
+  color: aliceblue;
+  margin-left: 50px;
+  margin-top: 125px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.apraksts3 {
+  position: fixed;
+  font-size: 20px;
+  color: rgb(154, 160, 165);
+  margin-left: 15px;
+  margin-top: 180px;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  text-shadow: -1px -1px 0 rgb(34, 32, 32), 1px -1px 0 rgb(34, 32, 32), -1px 1px 0 rgb(34, 32, 32), 1px 1px 0 rgb(34, 32, 32);
+}
+
+.telefona_numurs {
+  position: fixed;
+  font-size: 20px;
+  color: aliceblue;
+  margin-left: 120px;
+  margin-top: 230px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.bg {
+  background-color: aliceblue;
+}
