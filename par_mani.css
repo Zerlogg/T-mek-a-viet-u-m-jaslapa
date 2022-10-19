@@ -1,0 +1,455 @@
+body {
+    background-image: url("images/Background2.png");
+    background-size: cover;
+    max-width: 100%;
+    margin: 0;
+}
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.664);
+}
+  
+.home {
+    display: flex;
+    float: left;
+}
+  
+li a {
+    float: right;
+    display: block;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: aliceblue;
+    text-align: center;
+    padding: 25px 35px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.logi {
+    margin-top: 6%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.python_logs {
+    background-color: rgba(0, 0, 0, 0.664);
+    background-size: cover;
+    width: 400px;
+    height: 600px;
+    border: 2px solid #f1f1f1;
+    border-radius: 15px;
+    perspective: 1000px;
+    margin-right: 3%;
+}
+  
+.python_ieksa {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.9s;
+    transform-style: preserve-3d;
+}
+  
+.python_logs:hover .python_ieksa {
+    transform: rotateY(180deg);
+}
+  
+.python_prieksa, .python_aizmugure {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.python_prieksa {
+    background-image: linear-gradient(#4685b7, #fede57);
+    border-radius: 13px;
+}
+  
+.python_aizmugure {
+    background-image: linear-gradient(#4685b7, #fede57);
+    border-radius: 13px;
+    transform: rotateY(180deg);
+}
+
+.python_virsraksts {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: aliceblue;
+}
+
+.python_apraksts {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: aliceblue;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.python_vikipedija {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.c_sharp_logs {
+    background-color: rgba(0, 0, 0, 0.664);
+    background-size: cover;
+    width: 400px;
+    height: 600px;
+    border: 2px solid #f1f1f1;
+    perspective: 1000px;
+    border-radius: 15px;
+}
+  
+.c_sharp_ieksa {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.9s;
+    transform-style: preserve-3d;
+}
+  
+.c_sharp_logs:hover .c_sharp_ieksa {
+    transform: rotateY(180deg);
+}
+  
+.c_sharp_prieksa, .c_sharp_aizmugure {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.c_sharp_prieksa {
+    background-image: linear-gradient(#c7a1d1, #68217a);
+    border-radius: 13px;
+}
+  
+.c_sharp_aizmugure {
+    background-image: linear-gradient(#c7a1d1, #68217a);
+    border-radius: 13px;
+    transform: rotateY(180deg);
+}
+
+.c_sharp_virsraksts {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: aliceblue;
+}
+
+.c_sharp_apraksts {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: aliceblue;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.c_sharp_vikipedija {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cpp_logs {
+    background-color: rgba(0, 0, 0, 0.664);
+    background-size: cover;
+    width: 400px;
+    height: 600px;
+    border: 2px solid #f1f1f1;
+    border-radius: 15px;
+    perspective: 1000px;
+    margin-left: 3%;
+}
+  
+.cpp_ieksa {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.9s;
+    transform-style: preserve-3d;
+}
+  
+.cpp_logs:hover .cpp_ieksa {
+    transform: rotateY(180deg);
+}
+  
+.cpp_prieksa, .cpp_aizmugure {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.cpp_prieksa {
+    background-image: linear-gradient(#9fbedc, #004c8c);
+    border-radius: 13px;
+}
+  
+.cpp_aizmugure {
+    background-image: linear-gradient(#9fbedc, #004c8c);
+    border-radius: 13px;
+    transform: rotateY(180deg);
+}
+
+.cpp_virsraksts {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: aliceblue;
+}
+
+.cpp_apraksts {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: aliceblue;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.cpp_vikipedija {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logi2 {
+    margin-top: 3%;
+    margin-bottom: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.html_logs {
+    background-color: rgba(0, 0, 0, 0.664);
+    background-size: cover;
+    width: 400px;
+    height: 600px;
+    border: 2px solid #f1f1f1;
+    border-radius: 15px;
+    perspective: 1000px;
+    margin-right: 3%;
+}
+  
+.html_ieksa {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.9s;
+    transform-style: preserve-3d;
+}
+  
+.html_logs:hover .html_ieksa {
+    transform: rotateY(180deg);
+}
+  
+.html_prieksa, .html_aizmugure {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.html_prieksa {
+    background-image: linear-gradient(#e5b2a2, #e75426);
+    border-radius: 13px;
+}
+  
+.html_aizmugure {
+    background-image: linear-gradient(#e5b2a2, #e75426);
+    border-radius: 13px;
+    transform: rotateY(180deg);
+}
+
+.html_virsraksts {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: aliceblue;
+}
+
+.html_apraksts {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: aliceblue;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.html_vikipedija {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.css_logs {
+    background-color: rgba(0, 0, 0, 0.664);
+    background-size: cover;
+    width: 400px;
+    height: 600px;
+    border: 2px solid #f1f1f1;
+    border-radius: 15px;
+    perspective: 1000px;
+}
+  
+.css_ieksa {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.9s;
+    transform-style: preserve-3d;
+}
+  
+.css_logs:hover .css_ieksa {
+    transform: rotateY(180deg);
+}
+  
+.css_prieksa, .css_aizmugure {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.css_prieksa {
+    background-image: linear-gradient(#93AEF1, #002A95);
+    border-radius: 13px;
+}
+  
+.css_aizmugure {
+    background-image: linear-gradient(#93AEF1, #002A95);
+    border-radius: 13px;
+    transform: rotateY(180deg);
+}
+
+.css_virsraksts {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: aliceblue;
+}
+
+.css_apraksts {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: aliceblue;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.css_vikipedija {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.javascript_logs {
+    background-color: rgba(0, 0, 0, 0.664);
+    background-size: cover;
+    width: 400px;
+    height: 600px;
+    border: 2px solid #f1f1f1;
+    border-radius: 15px;
+    perspective: 1000px;
+    margin-left: 3%;
+}
+  
+.javascript_ieksa {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.9s;
+    transform-style: preserve-3d;
+}
+  
+.javascript_logs:hover .javascript_ieksa {
+    transform: rotateY(180deg);
+}
+  
+.javascript_prieksa, .javascript_aizmugure {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+  
+.javascript_prieksa {
+    background-image: linear-gradient(#ffeca2, #dab92d);
+    border-radius: 13px;
+}
+  
+.javascript_aizmugure {
+    background-image: linear-gradient(#ffeca2, #dab92d);
+    border-radius: 13px;
+    transform: rotateY(180deg);
+}
+
+.javascript_virsraksts {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: aliceblue;
+}
+
+.javascript_apraksts {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: aliceblue;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.javascript_vikipedija {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}

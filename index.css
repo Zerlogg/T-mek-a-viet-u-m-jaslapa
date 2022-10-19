@@ -1,14 +1,44 @@
 body {
-  background-image: url("images/Background.PNG");
+  background-image: url("images/Background2.png");
   background-size: cover;
   max-width: 100%;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.664);
+}
+
+.home {
+  display: flex;
+  float: left;
+}
+
+li a {
+  float: right;
+  display: block;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  color: aliceblue;
+  text-align: center;
+  padding: 25px 35px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(0, 0, 0);
 }
 
 .virsraksts{
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10%;
-  margin-bottom: 8%;
+  margin-top: 6%;
+  margin-bottom: 6%;
   text-align: center;
 }
 
@@ -34,7 +64,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
-  margin-bottom: auto;
+  margin-bottom: 5%;
   text-align: center;
   justify-content: center;
 }
@@ -122,6 +152,7 @@ body {
   font-weight: bold;
   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-decoration: none;
 }
 
 .logs3 {
@@ -167,14 +198,86 @@ body {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+.manas_soc_medijas {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+.medijas_info {
+  position: relative;
+  font-size: 30px;
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
 .soc_medijas{
-  background-color: rgb(51, 107, 51);
-  width: auto;
-  height: auto;
+  position: relative;
+  background-color: rgb(255, 255, 255);
   margin-left: auto;
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
+  display: flex;
   text-align: center;
   justify-content: center;
+}
+
+.instagram {
+  position: relative;
+  margin-right: 3%;
+  margin-top: 2%;
+}
+
+.instagram_logo {
+  width: 80px;
+  height: 80px;
+}
+
+.instagram_teksts {
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.facebook {
+  position: relative;
+  margin-top: 2%;
+}
+
+.facebook_logo {
+  width: 80px;
+  height: 80px;
+}
+
+.facebook_teksts {
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.github {
+  position: relative;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+.github_logo {
+  width: 80px;
+  height: 80px;
+}
+
+.github_teksts {
+  font-size: 25px;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-decoration: none;
+  color: aliceblue;
 }
