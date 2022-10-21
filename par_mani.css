@@ -26,7 +26,7 @@ li a {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     color: aliceblue;
     text-align: center;
-    padding: 25px 35px;
+    padding: 20px 35px;
     text-decoration: none;
 }
   
@@ -34,8 +34,69 @@ li a:hover {
     background-color: rgb(0, 0, 0);
 }
 
-.logi {
+.virsraksts {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: aliceblue;
+    text-align: center;
     margin-top: 6%;
+    margin-bottom: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+}
+
+.virsraksta_logs {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0px 0px 30px 10px rgb(0, 0, 0);
+    background-color: #ffffff;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+  
+.virsraksta_konteineris {
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: 6%;
+ }
+
+ .loga_virsraksts {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+ }
+
+ .loga_apraksts {
+    white-space: normal;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    padding-bottom: 3%;
+ }
+
+.logi_fons {
+    position: relative;
+    margin-top: auto;
+    margin-bottom: 4%;
+    margin-left: 12%;
+    margin-right: 12%;
+    background-image: linear-gradient(#1c1d5d, #364698, #966698, #531c5e);
+    border: solid 2px;
+    border-color: rgba(0, 0, 0, 0.781);
+    box-shadow: 0px 0px 30px 10px rgb(0, 0, 0);
+}
+
+.logi {
+    margin-top: 4%;
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
@@ -50,9 +111,10 @@ li a:hover {
     width: 400px;
     height: 600px;
     border: 2px solid #f1f1f1;
-    border-radius: 15px;
+    border-radius: 5px;
     perspective: 1000px;
-    margin-right: 3%;
+    margin-right: 2%;
+    margin-top: 2%;
 }
   
 .python_ieksa {
@@ -78,12 +140,12 @@ li a:hover {
   
 .python_prieksa {
     background-image: linear-gradient(#4685b7, #fede57);
-    border-radius: 13px;
+    border-radius: 3px;
 }
   
 .python_aizmugure {
     background-image: linear-gradient(#4685b7, #fede57);
-    border-radius: 13px;
+    border-radius: 3px;
     transform: rotateY(180deg);
 }
 
@@ -118,7 +180,8 @@ li a:hover {
     height: 600px;
     border: 2px solid #f1f1f1;
     perspective: 1000px;
-    border-radius: 15px;
+    border-radius: 5px;
+    margin-top: 2%;
 }
   
 .c_sharp_ieksa {
@@ -144,12 +207,12 @@ li a:hover {
   
 .c_sharp_prieksa {
     background-image: linear-gradient(#c7a1d1, #68217a);
-    border-radius: 13px;
+    border-radius: 3px;
 }
   
 .c_sharp_aizmugure {
     background-image: linear-gradient(#c7a1d1, #68217a);
-    border-radius: 13px;
+    border-radius: 3px;
     transform: rotateY(180deg);
 }
 
@@ -183,9 +246,10 @@ li a:hover {
     width: 400px;
     height: 600px;
     border: 2px solid #f1f1f1;
-    border-radius: 15px;
+    border-radius: 5px;
     perspective: 1000px;
-    margin-left: 3%;
+    margin-left: 2%;
+    margin-top: 2%;
 }
   
 .cpp_ieksa {
@@ -211,12 +275,12 @@ li a:hover {
   
 .cpp_prieksa {
     background-image: linear-gradient(#9fbedc, #004c8c);
-    border-radius: 13px;
+    border-radius: 3px;
 }
   
 .cpp_aizmugure {
     background-image: linear-gradient(#9fbedc, #004c8c);
-    border-radius: 13px;
+    border-radius: 3px;
     transform: rotateY(180deg);
 }
 
@@ -246,7 +310,7 @@ li a:hover {
 
 .logi2 {
     margin-top: 3%;
-    margin-bottom: 4%;
+    margin-bottom: 3%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -260,9 +324,10 @@ li a:hover {
     width: 400px;
     height: 600px;
     border: 2px solid #f1f1f1;
-    border-radius: 15px;
+    border-radius: 5px;
     perspective: 1000px;
-    margin-right: 3%;
+    margin-right: 2%;
+    margin-bottom: 2%;
 }
   
 .html_ieksa {
@@ -288,12 +353,12 @@ li a:hover {
   
 .html_prieksa {
     background-image: linear-gradient(#e5b2a2, #e75426);
-    border-radius: 13px;
+    border-radius: 3px;
 }
   
 .html_aizmugure {
     background-image: linear-gradient(#e5b2a2, #e75426);
-    border-radius: 13px;
+    border-radius: 3px;
     transform: rotateY(180deg);
 }
 
@@ -327,8 +392,9 @@ li a:hover {
     width: 400px;
     height: 600px;
     border: 2px solid #f1f1f1;
-    border-radius: 15px;
+    border-radius: 5px;
     perspective: 1000px;
+    margin-bottom: 2%;
 }
   
 .css_ieksa {
@@ -354,12 +420,12 @@ li a:hover {
   
 .css_prieksa {
     background-image: linear-gradient(#93AEF1, #002A95);
-    border-radius: 13px;
+    border-radius: 3px;
 }
   
 .css_aizmugure {
     background-image: linear-gradient(#93AEF1, #002A95);
-    border-radius: 13px;
+    border-radius: 3px;
     transform: rotateY(180deg);
 }
 
@@ -393,9 +459,10 @@ li a:hover {
     width: 400px;
     height: 600px;
     border: 2px solid #f1f1f1;
-    border-radius: 15px;
+    border-radius: 5px;
     perspective: 1000px;
-    margin-left: 3%;
+    margin-left: 2%;
+    margin-bottom: 2%;
 }
   
 .javascript_ieksa {
@@ -421,12 +488,12 @@ li a:hover {
   
 .javascript_prieksa {
     background-image: linear-gradient(#ffeca2, #dab92d);
-    border-radius: 13px;
+    border-radius: 3px;
 }
   
 .javascript_aizmugure {
     background-image: linear-gradient(#ffeca2, #dab92d);
-    border-radius: 13px;
+    border-radius: 3px;
     transform: rotateY(180deg);
 }
 

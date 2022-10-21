@@ -26,7 +26,7 @@ li a {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   color: aliceblue;
   text-align: center;
-  padding: 25px 35px;
+  padding: 20px 35px;
   text-decoration: none;
 }
 
@@ -229,7 +229,7 @@ li a:hover {
 .instagram {
   position: relative;
   margin-right: 3%;
-  margin-top: 2%;
+  margin-top: 1%;
 }
 
 .instagram_logo {
@@ -238,7 +238,7 @@ li a:hover {
 }
 
 .instagram_teksts {
-  font-size: 25px;
+  font-size: 23px;
   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   text-decoration: none;
@@ -247,7 +247,7 @@ li a:hover {
 
 .facebook {
   position: relative;
-  margin-top: 2%;
+  margin-top: 1%;
 }
 
 .facebook_logo {
@@ -256,7 +256,7 @@ li a:hover {
 }
 
 .facebook_teksts {
-  font-size: 25px;
+  font-size: 23px;
   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   text-decoration: none;
@@ -266,7 +266,7 @@ li a:hover {
 .github {
   position: relative;
   margin-left: 3%;
-  margin-top: 2%;
+  margin-top: 1%;
 }
 
 .github_logo {
@@ -275,7 +275,7 @@ li a:hover {
 }
 
 .github_teksts {
-  font-size: 25px;
+  font-size: 23px;
   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   text-decoration: none;
