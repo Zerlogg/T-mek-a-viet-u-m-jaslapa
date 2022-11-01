@@ -520,3 +520,71 @@ li a:hover {
     text-decoration: none;
     font-weight: bold;
 }
+
+.soc_medijas {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .instagram {
+    position: relative;
+    margin-right: 3%;
+    margin-top: 1%;
+  }
+  
+  .instagram_logo {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .instagram_teksts {
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
+  .facebook {
+    position: relative;
+    margin-top: 1%;
+  }
+  
+  .facebook_logo {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .facebook_teksts {
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
+  .github {
+    position: relative;
+    margin-left: 3%;
+    margin-top: 1%;
+  }
+  
+  .github_logo {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .github_teksts {
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-decoration: none;
+    color: aliceblue;
+  }

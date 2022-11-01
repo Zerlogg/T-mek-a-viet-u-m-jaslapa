@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="sazinies_ar_mani.css">
+  <script src = "jquery.js" defer></script>
   <title>Sazinies ar mani</title>
 </head>
 <body>
@@ -25,31 +26,57 @@
   </div>
 
   <div class = "sazina">
-    <div class="vards">
-      <input type="text" id="vards_teksts" name="vards" placeholder="Vārds">
+    <div>
+      <div class="vards">
+        <input type="text" id="vards_teksts" name="vards" placeholder="Vārds" maxlength="32">
+      </div>
+
+      <div class = "uzvards">
+        <input type="text" id="uzvards_teksts" name="uzvards" placeholder="Uzvārds" maxlength="32">
+      </div>
     </div>
 
-    <div class = "uzvards">
-      <input type="text" id="uzvards_teksts" name="uzvards" placeholder="Uzvārds">
+    <div>
+      <div class = "e-pasts">
+        <input type="text" id="e-pasts_teksts" name="e-pasts" placeholder="E-pasts" maxlength="32">
+      </div>
+
+      <div class = "talruna_numurs">
+        <input type="text" id="talruna_numurs_teksts" name="talruna_numurs" placeholder="Tālruņa numurs" maxlength="32">
+      </div>
     </div>
 
-    <div class = "e-pasts">
-      <input type="text" id="e-pasts_teksts" name="e-pasts" placeholder="E-pasts">
+    <div>
+      <div class = "jautajums">
+        <textarea type="text" id="jautajums_teksts" name="jautajums" placeholder="Uzdodiet savu jautājumu"></textarea>
+      </div>
     </div>
-
-    <div class = "talruna_numurs">
-      <input type="text" id="talruna_numurs_teksts" name="talruna_numurs" placeholder="Tālruņa numurs">
-    </div>
-
-    <div class = "jautajums">
-      <input type="text" id="jautajums_teksts" name="jautajums" placeholder="Uzdodiet savu jautājumu">
-    </div>
-
-    <div class = "poga">
-      <button class = "apstiprinat">Jautāt</button>
+    
+    <div>
+      <button class = "poga">Jautāt</button>
     </div>
   </div>
 
-  <script src = "jquery.js"></script>
+  <div class = "soc_medijas">
+    <div class = "instagram">
+      <a href = "https://www.instagram.com/zerlog/" class = "instagram_teksts">
+        <img src = "images/instagram_logo.png" class = "instagram_logo">
+        <p>Instagram</p>
+      </a>
+    </div>
+    <div class = "facebook">
+      <a href = "https://www.facebook.com/emils.strelis/" class = "facebook_teksts">
+        <img src = "images/facebook_logo.png" class = "facebook_logo">
+        <p>Facebook</p>
+      </a>
+    </div>
+    <div class = "github">
+      <a href = "https://github.com/Zerlogg" class = "github_teksts">
+        <img src = "images/github_logo.png" class = "github_logo">
+        <p>GitHub</p>
+      </a>
+    </div>
+  </div>
+
 </body>
 </html>
